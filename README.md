@@ -1,12 +1,12 @@
 # Vue 3 example with Axios & Vue Router: Build CRUD App
 
-Build a Vue.js 3 CRUD example to consume REST APIs, display and modify data using Axios and Vue Router.
+Build a Vue.js TechSolutions example to consume REST APIs, display and modify data using Axios and Vue Router.
 
 - Each Tutorial has id, title, description, published status.
 - We can create, retrieve, update, delete Tutorials.
 - There is a Search bar for finding Tutorials by title.
 
-![techsolutions-example-axios-tutorial](vue-3-crud-example-axios-tutorial.png)
+![techsolutions-example-axios-tutorial](techsolutions-example-axios-tutorial.png)
 
 For instruction, please visit:
 
@@ -17,8 +17,6 @@ Typescript version:
 > [Vue 3 Typescript example with Axios: Build CRUD App](https://bezkoder.com/vue-3-typescript-axios/)
 
 More Practice:
-
-> [Vue 2 CRUD App with Vue Router & Axios](https://bezkoder.com/vue-js-crud-app/)
 
 > [Vue Pagination with Axios and API example](https://bezkoder.com/vue-pagination-axios/)
 
