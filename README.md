@@ -1,4 +1,4 @@
-# Vue 3 example with Axios & Vue Router: Build CRUD App
+# Vue TechSolutions example with Axios & Vue Router: Build CRUD App
 
 Build a Vue.js TechSolutions example to consume REST APIs, display and modify data using Axios and Vue Router.
 
