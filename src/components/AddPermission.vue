@@ -96,12 +96,12 @@ export default {
     getPermissionById(id) {
       DataService.getById(id)
         .then(response => {
-          let data = response['data'];
-          this.permission.id = data['data'].id;
-          this.permission.nombreEmpleado = data['data'].nombreEmpleado;
-          this.permission.apellidosEmpleado = data['data'].apellidosEmpleado;
-          this.permission.tipoPermiso = data['data'].tipoPermiso;
-          this.permission.fechaPermiso = this.getDateFormat(data['data'].fechaPermiso);
+          console.log(response.data);
+          this.permission.id = response.data.id;
+          this.permission.nombreEmpleado = response.data.nombreEmpleado;
+          this.permission.apellidosEmpleado = response.data.apellidosEmpleado;
+          this.permission.tipoPermiso = response.data.tipoPermiso;
+          this.permission.fechaPermiso = this.getDateFormat(response.data.fechaPermiso);
         })
         .catch(e => {
           console.log(e);
